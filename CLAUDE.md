@@ -44,6 +44,10 @@ Entry point is `src/main.jsx` → wraps `<App>` in `<BrowserRouter>` → renders
 
 Tailwind utility classes can be used alongside the existing CSS custom property system (`--accent`, `--text`, `--bg`, etc.).
 
+## Prototype Context
+
+This is a **prototype**, not a production app. `Home.jsx` (`/`) is intentionally a flow-selector screen listing all routes — do not replace it with real app content.
+
 ## ESLint
 
 - Applies to `**/*.{js,jsx}` only

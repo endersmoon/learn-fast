@@ -1,5 +1,7 @@
+import PageContainer from '@/components/PageContainer'
+
 function Onboarding() {
-  return <div>Onboarding</div>
+  return <PageContainer>Onboarding</PageContainer>
 }
 
 export default Onboarding

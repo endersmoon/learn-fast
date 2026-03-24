@@ -1,5 +1,7 @@
+import PageContainer from '@/components/PageContainer'
+
 function VideoPlayer() {
-  return <div>Video Player</div>
+  return <PageContainer>Video Player</PageContainer>
 }
 
 export default VideoPlayer

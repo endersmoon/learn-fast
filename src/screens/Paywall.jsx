@@ -1,5 +1,7 @@
+import PageContainer from '@/components/PageContainer'
+
 function Paywall() {
-  return <div>Paywall</div>
+  return <PageContainer>Paywall</PageContainer>
 }
 
 export default Paywall

@@ -5,6 +5,7 @@ import Search from './screens/Search'
 import VideoPlayer from './screens/VideoPlayer'
 import Paywall from './screens/Paywall'
 import Collection from './screens/Collection'
+import Landing from './screens/Landing'
 import NotFound from './screens/NotFound'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Route path="/video/:id" element={<VideoPlayer />} />
       <Route path="/paywall" element={<Paywall />} />
       <Route path="/collection" element={<Collection />} />
+      <Route path="/landing" element={<Landing />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   )

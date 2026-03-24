@@ -1,5 +1,7 @@
+import PageContainer from '@/components/PageContainer'
+
 function Collection() {
-  return <div>Collection</div>
+  return <PageContainer>Collection</PageContainer>
 }
 
 export default Collection

@@ -1,5 +1,7 @@
+import PageContainer from '@/components/PageContainer'
+
 function Search() {
-  return <div>Search</div>
+  return <PageContainer>Search</PageContainer>
 }
 
 export default Search
